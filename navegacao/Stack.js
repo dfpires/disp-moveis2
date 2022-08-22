@@ -11,7 +11,7 @@ export default props => {
 
   return (
       <Stack.Navigator initialRouteName={TelaA}>
-        <Stack.Screen name="TelaA" options={{title:'Página Principal'}}component={TelaA}>
+        <Stack.Screen name="TelaA" options={{title:'Página Principal'}} component={TelaA}>
 
         </Stack.Screen>
         <Stack.Screen name="TelaB" component={TelaB}>
